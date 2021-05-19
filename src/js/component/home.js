@@ -75,10 +75,10 @@ export function Home() {
 	}
 
 	return (
-		<div className="container text-left">
+		<div className="container text-left mt-4">
 			<h1 className="text-center">To-do list</h1>
-			<div className="card brown shadow">
-				<div className="card-body">
+			<div className="container col-6 shadow justify-content-center">
+				<div className="card-body border-bottom">
 					<form action="" onSubmit={addTask}>
 						<input
 							type="text"
